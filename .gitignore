@@ -1,3 +1,32 @@
+# .gitignore
+
+# Ignore build directory
+build/
+
+
+#ignore the third_party (the folder third_party stays)
+/third_party/* 
+.VSCodeCounter
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+out/
+
+# Ignore CMake generated files
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -9,3 +38,29 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+
+# Ignore other generated files
+*.o
+*.obj
+*.exe
+*.lib
+*.dll
+*.so
+*.a
+*.dylib
+
+# Ignore Visual Studio generated files
+.vs/
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Ignore other common files
+*.log
+*.swp
+*.bak
+*.tmp
+*.orig
+
