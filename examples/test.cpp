@@ -1,4 +1,4 @@
-#include <eigen_graphics/test.h>
+#include <eigen_graphics/all.h>
 #include <iostream>
 
 int main()
