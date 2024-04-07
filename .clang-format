@@ -1,0 +1,6 @@
+# code used in Eigen math library - https://gitlab.com/libeigen/eigen/-/commit/675b72e44bd5a6177aebddc0ca6e754d6cd19dc7 (not add in v3.4.0)
+---
+Language: Cpp
+BasedOnStyle: Google
+ColumnLimit: 120
+SortIncludes: false
