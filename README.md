@@ -1,6 +1,6 @@
 # eigen_graphics
 
-A graphics extension library for the Eigen math library, providing additional functionality for computer graphics.
+A graphics extension library for the [Eigen math library](https://gitlab.com/libeigen/eigen), providing additional functionality for computer graphics.
 
 ## Features
 
